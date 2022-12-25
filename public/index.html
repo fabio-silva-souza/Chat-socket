@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Chat</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Chat - Socket</h1>
+        <form action="chat.html" class="user_form">
+            <input type="text" name="username" id="username" placeholder="Enter name..." required />
+            <h4>Groups</h4>
+            <select name="room" id="room">
+                <option value="#1">room 1</option>
+                <option value="#2">room 2</option>
+                <option value="#3">room 3</option>
+                <option value="#4">room 4</option>
+            </select>
+            <button type="submit" class="btn">Join Chat</button>
+        </form>
+        <div id="btn-darkmode"></div>
+    </div>
+    <script>
+        document.getElementById('btn-darkmode').addEventListener('click' , () => {
+            const html = document.querySelector('html');
+            html.classList.toggle('darkmode');
+    })
+    </script>
+</body>
+</html>
