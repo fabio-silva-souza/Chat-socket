@@ -1,0 +1,12 @@
+A chat using socket.IO 
+
+Done for the first time in a node class, and incremented with other aspects from Youtube
+As a intial page where you choose rooms and name user
+a second page with the number room, users, message area and both pages has a darkmode 
+
+this project use:
+npm init 
+express (https://expressjs.com/)
+socket Io (https://socket.io/)
+moment (https://momentjs.com/)
+-D nodemon (https://nodemon.io/)
